@@ -37,6 +37,18 @@ function response(message, room, sender, replier, imageDb) {
   - `.getProfileImage(): string`: 전송자의 프로필 이미지를 Base64로 인코딩하여 가져옴
   - `.getProfileBase64(): string`: 전송자의 프로필 이미지를 Base64로 인코딩하여 가져옴
 
+**`통합된 매개변수` 옵션을 켜면, 아래와 같이 사용하실 수 있습니다.**
+
+Example:
+
+```javascript
+function response(args) {
+    if (args.room === "카카토옥 봇 개발 방" && args.message === "안녕") {
+        args.replier.reply(room, "안녕하세요!");
+    }
+}
+```
+
 ### Api.getContext(): android.content.Context
 
 현재 Context를 가져옴
