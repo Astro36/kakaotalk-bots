@@ -10,11 +10,11 @@ JellBreak
 
 ## 엔진
 
-Rhino 1.7.11
+Rhino 1.7.11 (Unofficial, Compiled by JellBreak)
 
 ## API
 
-> 최적화 모드를 사용하면 [Closure Compiler](https://developers.google.com/closure/compiler/)가 활송화되어 ES6 문법을 사용할 수 있습니다.
+> 최적화 모드를 사용하면 [Closure Compiler](https://developers.google.com/closure/compiler/)가 활성화되어 ES6 문법을 사용할 수 있습니다.
 
 Example:
 
