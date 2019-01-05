@@ -100,14 +100,6 @@ EventManager.getRegister().response(function (room, message) {
 });
 ```
 
-Example 3:
-
-```javascript
-EventManager.getRegister().response(function (room, message) {
-    Api.replyRoom(room, "Echo: " + message);
-});
-```
-
 Example 4:
 
 ```javascript

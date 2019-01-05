@@ -4,5 +4,6 @@
 
 ## Index
 
-- [젤브봇](./JellBrick.md)
-- [수용봇](./Perk.md)
+- [젤브봇](./docs/JellBrick.md)
+- [수용봇](./docs/Perk.md)
+- [바렛봇](./docs/VioletFx.md)

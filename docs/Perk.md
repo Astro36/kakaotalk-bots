@@ -2,7 +2,7 @@
 
 ## 제작
 
-PERK(개발자: 수용)
+수용(PERK 계정만 이용했을 뿐, PERK팀의 프로젝트가 아닙니다)
 
 [https://github.com/Su-Yong/NewKakaoBot](https://github.com/Su-Yong/NewKakaoBot)
 
@@ -15,6 +15,16 @@ PERK(개발자: 수용)
 Rhino v1.7.7.2
 
 ## API
+
+Example:
+
+```javascript
+function catchMessage(room, sender, message) {
+    if (room === "카카토옥 봇 개발 방" && message === "안녕") {
+        Bot.send(room, "안녕하세요!");
+    }
+}
+```
 
 ### funciton catchMessage(room: string, sender: string, message: string)
 
@@ -46,7 +56,7 @@ Rhino v1.7.7.2
 
 ### Util.log(title: string, message: string)
 
-### Util.parseToHtml(url: string, option: string, function(data: string, error))
+### Util.parseToHtml(url: string, option: string, function(data: string, error: java.io.IOException))
 
 웹사이트의 DOM을 파싱하여 HTML로 가져옵니다.
 
