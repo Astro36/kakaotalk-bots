@@ -44,7 +44,7 @@ Example:
 ```javascript
 function response(args) {
     if (args.room === "카카토옥 봇 개발 방" && args.message === "안녕") {
-        args.replier.reply(room, "안녕하세요!");
+        args.replier.reply(args.room, "안녕하세요!");
     }
 }
 ```
@@ -85,7 +85,7 @@ Example:
 Api.on("스크립트이름.js");
 ```
 
-### Api.papagoTranslate(from: string, to: string, text): string
+### Api.papagoTranslate(from: string, to: string, text: string): string
 
 파파고 번역 API를 사용함
 

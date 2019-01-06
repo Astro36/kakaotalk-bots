@@ -1,0 +1,26 @@
+# KakaoTalk Bot Compatibility Scripts
+
+> 카카오톡 봇 호환성 스크립트
+
+## Index
+
+- 바렛봇 -> 졸브봇
+
+### 바렛봇 -> 졸브봇
+
+> 바렛봇 스크립트를 졸브봇에서 사용할 수 있게합니다.
+
+```javascript
+// xfl-to-standard.js를 복사해 스크립트 최상단에 붙여넣습니다.
+(...)(this);
+
+// standard-to-jellbrick.js를 바로 밑에 붙여넣습니다.
+(...)(this);
+
+// 바렛봇 봇 코드를 붙여넣습니다.
+function response(message, room, sender, replier, imageDb) {
+    if (room === "카카토옥 봇 개발 방" && message === "안녕") {
+        replier.reply(room, "안녕하세요!");
+    }
+}
+```
