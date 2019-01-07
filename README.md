@@ -4,7 +4,13 @@
 
 ## Index
 
+### API Documents
+
 - [닼토봇](./docs/DarkTornado.md)
 - [젤브봇](./docs/JellBrick.md)
 - [수용봇](./docs/Perk.md)
 - [바렛봇(메신저봇)](./docs/VioletFx.md)
+
+### Library
+
+- [호환성 스크립트](./lib/compat/README.md)
