@@ -1,10 +1,14 @@
-# 닼토봇
+# 카스타봇
+
+> Unofficial KakaoTalk Standard Bot
+
+![Kasta Bot Icon](../assets/ic_kasta_bot.png)
 
 ## 제작
 
 ## 패키지명
 
-[]()
+[be.zvz.kastabot]()
 
 ## 엔진
 

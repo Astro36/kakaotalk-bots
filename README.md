@@ -7,6 +7,7 @@
 ### API Documents
 
 - [닼토봇](./docs/DarkTornado.md)
+- [카스타봇](./docs/Kasta.md)
 - [젤브봇](./docs/JellBrick.md)
 - [수용봇](./docs/Perk.md)
 - [바렛봇(메신저봇)](./docs/VioletFx.md)
