@@ -1,8 +1,8 @@
 # 카스타봇
 
-> Unofficial KakaoTalk Standard Bot
+![../assets/img_kasta_bot.png](../assets/img_kasta_bot.png)
 
-![Kasta Bot Icon](../assets/ic_kasta_bot.png)
+> Unofficial KakaoTalk Standard Bot
 
 ## 제작
 
