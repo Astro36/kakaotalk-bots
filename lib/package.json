@@ -1,12 +1,12 @@
 {
-  "name": "kakaotalk-bot-compat",
+  "name": "kakaotalk-bot-lib",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unofficial KakaoTalk Bot Library",
   "scripts": {
     "lint": "eslint compat",
     "lint:fix": "eslint compat --fix"
   },
-  "author": "Seungjae Park <astr362naver.com>",
+  "author": "Seungjae Park <astr36@naver.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.12.0"
